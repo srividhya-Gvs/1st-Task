@@ -4,15 +4,41 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<link rel="stylesheet"  href="navigation.css">
+	<style type="text/css">
+		p{
+			margin: 2% 0% 1% 0%;
+		}
+		.name{
+			padding-bottom: 1%;
+			width: 15%;
+		}
+		.password{
+			padding-bottom: 1%;
+			width: 15%;
+		}
+		.log{
+			padding-bottom: 1%;
+		}
+
+	</style>
 </head>
 <body>
+	 <nav class="navigation">
+     <a href="register.html">Register</a>
+     <a href="login.html">Login</a>
+     <a href="biography.html">Biography</a>
+     <a href="photos.html">Photos</a>
+    </nav> 
+    <center> 
    <form action=biography.html>
    	  <h1 align="centre">login page</h1>
-   	 <p><input placeholder="user name"type="text"required/></p>
-   	  <p><input placeholder="enter password"type="password"/></p>
+   	 <p><input class="name" placeholder="user name"type="text"required/></p>
+   	  <p><input class="password" placeholder="enter password"type="password"/></p>
    	  <p>
-   	  	<button>login</button>
+   	  	<button class="log">login</button>
    	  </p>
    	</form>
+   	</center>
 </body>
 </html>

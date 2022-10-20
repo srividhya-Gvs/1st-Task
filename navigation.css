@@ -1,0 +1,17 @@
+*{
+	margin: 0%;
+ }
+.navigation{
+	background-color: black;
+	display: flex;
+	justify-content: space-evenly;
+  }
+.navigation a{
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	padding: 1.8%;
+  }
+.navigation a:hover{
+	background-color: red;
+  }
